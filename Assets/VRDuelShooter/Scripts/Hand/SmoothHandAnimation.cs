@@ -21,7 +21,6 @@ namespace VRDuelShooter.Scripts.Hand
 
             float gripValue = _gripActionRef.action.ReadValue<float>();
             _handAnimator.SetFloat(GripAnimation, gripValue);
-            Debug.Log($"Grip value {gripValue}");
         }
     }
 }

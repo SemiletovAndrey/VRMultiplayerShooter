@@ -2,20 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using Fusion;
 using UnityEngine;
+using VRDuelShooter.Scripts.XR;
+using Zenject;
 
-public class PlayerSpawner : SimulationBehaviour, IPlayerJoined
+namespace VRDuelShooter.Scripts.Player.Photon
 {
-    [SerializeField] private GameObject _playerPrefab;
-    [SerializeField] private GameObject[] _spawnPoints;
-    
-    public void PlayerJoined(PlayerRef player)
+    public class PlayerSpawner : SimulationBehaviour, IPlayerJoined
     {
-        if (player == Runner.LocalPlayer)
+        [SerializeField] private GameObject _playerPrefab;
+        [SerializeField] private GameObject _xROrigin;
+        [SerializeField] private GameObject[] _spawnPoints;
+
+        [SerializeField] private XRFacade _xrFacade;
+        
+        
+        public void Construct(XRFacade xRFacade)
         {
-            Vector3 spawnPosition = new Vector3((player.RawEncoded % Runner.Config.Simulation.PlayerCount) * 3, 1, 0);
-            spawnPosition.y = 0;
-            Debug.Log($"Runner.Config.Simulation.PlayerCount {Runner.Config.Simulation.PlayerCount}");
-            Runner.Spawn(_playerPrefab, spawnPosition, Quaternion.identity);
+            _xrFacade = xRFacade;
+            if (_xrFacade == null)
+            {
+                Debug.Log("XRFacade is null");
+            }
+        }
+
+        public void PlayerJoined(PlayerRef player)
+        {
+            if (player == Runner.LocalPlayer)
+            {
+                _xROrigin.SetActive(true);
+                
+                var spawnedPlayer = Runner.Spawn(_playerPrefab, new Vector3(0,2,0), Quaternion.identity, Runner.LocalPlayer);
+                _xROrigin.transform.position = new Vector3(0,2,0);
+                
+                PlayerSynchronizer synchronizer = spawnedPlayer.GetComponent<PlayerSynchronizer>();
+                synchronizer.Initialize(_xrFacade.HeadTransform, _xrFacade.LeftHandTransform, _xrFacade.RightHandTransform, _xrFacade.BodyTransform);
+            }
         }
     }
 }
