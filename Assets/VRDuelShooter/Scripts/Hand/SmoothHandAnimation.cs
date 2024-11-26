@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Fusion;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace VRDuelShooter.Scripts.Hand
 {
-    public class SmoothHandAnimation : MonoBehaviour
+    public class SmoothHandAnimation : NetworkBehaviour
     {
         [SerializeField] private Animator _handAnimator;
         [SerializeField] private InputActionReference _triggerActionRef;
@@ -14,13 +15,16 @@ namespace VRDuelShooter.Scripts.Hand
         private static readonly int TriggerAnimation = Animator.StringToHash("Trigger");
         private static readonly int GripAnimation = Animator.StringToHash("Grip");
 
-        private void Update()
+        public override void FixedUpdateNetwork()
         {
-            float triggerValue = _triggerActionRef.action.ReadValue<float>();
-            _handAnimator.SetFloat(TriggerAnimation, triggerValue);
+            if (HasInputAuthority)
+            {
+                float triggerValue = _triggerActionRef.action.ReadValue<float>();
+                _handAnimator.SetFloat(TriggerAnimation, triggerValue);
 
-            float gripValue = _gripActionRef.action.ReadValue<float>();
-            _handAnimator.SetFloat(GripAnimation, gripValue);
+                float gripValue = _gripActionRef.action.ReadValue<float>();
+                _handAnimator.SetFloat(GripAnimation, gripValue);
+            }
         }
     }
 }

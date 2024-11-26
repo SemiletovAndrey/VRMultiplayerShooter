@@ -730,6 +730,7 @@ GameObject:
   - component: {fileID: 6503472651252357510}
   - component: {fileID: 6373193656007520430}
   - component: {fileID: 3115016371231804407}
+  - component: {fileID: 9091130590997973867}
   m_Layer: 0
   m_Name: LeftHandPrefab
   m_TagString: Untagged
@@ -790,6 +791,24 @@ MonoBehaviour:
   _handAnimator: {fileID: 6373193656007520430}
   _triggerActionRef: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   _gripActionRef: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &9091130590997973867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5839806730945233724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506319458, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Animator: {fileID: 6373193656007520430}
+  TotalWords: 2
+  ApplyTiming: 2
+  SyncSettings: 79
+  StateHashes: 000000008a18fce4b9abd9d3
+  TriggerHashes: 00000000
 --- !u!1 &6048351462085208520
 GameObject:
   m_ObjectHideFlags: 0

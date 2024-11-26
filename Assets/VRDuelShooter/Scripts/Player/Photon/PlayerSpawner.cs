@@ -14,8 +14,8 @@ namespace VRDuelShooter.Scripts.Player.Photon
         [SerializeField] private GameObject[] _spawnPoints;
 
         [SerializeField] private XRFacade _xrFacade;
-        
-        
+
+
         public void Construct(XRFacade xRFacade)
         {
             _xrFacade = xRFacade;
@@ -29,13 +29,23 @@ namespace VRDuelShooter.Scripts.Player.Photon
         {
             if (player == Runner.LocalPlayer)
             {
+                int spawnIndex =
+                    player.RawEncoded %
+                    _spawnPoints.Length; // Берём остаток от деления на длину массива для безопасности
+                Vector3 spawnPosition = _spawnPoints[spawnIndex].transform.position;
+
                 _xROrigin.SetActive(true);
-                
-                var spawnedPlayer = Runner.Spawn(_playerPrefab, new Vector3(0,2,0), Quaternion.identity, Runner.LocalPlayer);
-                _xROrigin.transform.position = new Vector3(0,2,0);
-                
-                PlayerSynchronizer synchronizer = spawnedPlayer.GetComponent<PlayerSynchronizer>();
-                synchronizer.Initialize(_xrFacade.HeadTransform, _xrFacade.LeftHandTransform, _xrFacade.RightHandTransform, _xrFacade.BodyTransform);
+                _xROrigin.transform.position = spawnPosition;
+
+                var spawnedPlayer = Runner.Spawn(_playerPrefab, spawnPosition, Quaternion.identity, player);
+
+                var synchronizer = spawnedPlayer.GetComponent<PlayerSynchronizer>();
+                synchronizer.Initialize(
+                    _xrFacade.HeadTransform,
+                    _xrFacade.LeftHandTransform,
+                    _xrFacade.RightHandTransform,
+                    _xrFacade.BodyTransform
+                );
             }
         }
     }

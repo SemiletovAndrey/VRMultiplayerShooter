@@ -7,15 +7,19 @@ namespace VRDuelShooter.Scripts.Player
     {
         [SerializeField] private MeshRenderer _headPlayer;
         [SerializeField] private MeshRenderer _bodyRenderer;
+        [SerializeField] private PlayerSynchronizer _playerSynchronizer;
 
         public override void Spawned()
         {
             base.Spawned();
             if (HasInputAuthority)
             {
-                Debug.Log("Player solvedSpawned");
-                _headPlayer.enabled = false;
-                _bodyRenderer.enabled = false;
+                Destroy(_headPlayer.gameObject);
+                Destroy(_bodyRenderer.gameObject);
+            }
+            else
+            {
+                Destroy(_playerSynchronizer.gameObject);
             }
         }
     }
