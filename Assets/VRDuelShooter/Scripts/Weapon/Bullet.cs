@@ -16,9 +16,9 @@ namespace VRDuelShooter.Scripts.Weapon
 
         public void Initialize(Vector3 direction, int damage, float lifeTime)
         {
-            _rigidbody.velocity = direction.normalized * _speed;
             _lifetime = lifeTime;
             _damage = damage;
+            _rigidbody.AddForce(direction.normalized * _speed, ForceMode.Impulse);
         }
 
         public override void FixedUpdateNetwork()

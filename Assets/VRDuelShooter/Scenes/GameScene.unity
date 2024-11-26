@@ -418,6 +418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Pawn (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4485704448486532, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.27125
@@ -486,6 +490,10 @@ PrefabInstance:
     - target: {fileID: 1595888500303032, guid: bec5b097ce3a840e4b09cd099b17c337, type: 3}
       propertyPath: m_Name
       value: Board
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595888500303032, guid: bec5b097ce3a840e4b09cd099b17c337, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4846723839890726, guid: bec5b097ce3a840e4b09cd099b17c337, type: 3}
       propertyPath: m_LocalScale.y
@@ -763,6 +771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Pawn (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5938220816633866819, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.76
@@ -885,6 +897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Pawn (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4485704448486532, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.27125
@@ -961,6 +977,10 @@ PrefabInstance:
     - target: {fileID: 1163459173247232, guid: 522692d40a26d42aeb798b874778b35c, type: 3}
       propertyPath: m_Name
       value: White Knight (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163459173247232, guid: 522692d40a26d42aeb798b874778b35c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4605882136081276, guid: 522692d40a26d42aeb798b874778b35c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2781,6 +2801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Rook
       objectReference: {fileID: 0}
+    - target: {fileID: 1536104987182252, guid: 55350a888e04c4e80aaa2960bea7e3c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4028849186913422, guid: 55350a888e04c4e80aaa2960bea7e3c0, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.76192
@@ -2853,6 +2877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Pawn (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5938220816633866819, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.87
@@ -2909,6 +2937,10 @@ PrefabInstance:
     - target: {fileID: 1892809951321136, guid: 8bc6354dcbfe34a3fba0b40d5887dd47, type: 3}
       propertyPath: m_Name
       value: White Bishop (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892809951321136, guid: 8bc6354dcbfe34a3fba0b40d5887dd47, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4836142988082084, guid: 8bc6354dcbfe34a3fba0b40d5887dd47, type: 3}
       propertyPath: m_LocalScale.x
@@ -2981,6 +3013,10 @@ PrefabInstance:
     - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_Name
       value: Black Pawn (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5938220816633866819, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3333,6 +3369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Bishop (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1892809951321136, guid: 8bc6354dcbfe34a3fba0b40d5887dd47, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4836142988082084, guid: 8bc6354dcbfe34a3fba0b40d5887dd47, type: 3}
       propertyPath: m_LocalScale.x
       value: 41.85684
@@ -3404,6 +3444,10 @@ PrefabInstance:
     - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_Name
       value: Black Pawn (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5938220816633866819, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3649,6 +3693,10 @@ PrefabInstance:
     - target: {fileID: 1536104987182252, guid: 55350a888e04c4e80aaa2960bea7e3c0, type: 3}
       propertyPath: m_Name
       value: White Rook (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536104987182252, guid: 55350a888e04c4e80aaa2960bea7e3c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4028849186913422, guid: 55350a888e04c4e80aaa2960bea7e3c0, type: 3}
       propertyPath: m_LocalScale.x
@@ -4058,6 +4106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Pawn (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5938220816633866819, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.71
@@ -4155,6 +4207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Rook (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8274271343021332198, guid: bcf19558551614c79a55a9e750ad43b1, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4171,6 +4227,10 @@ PrefabInstance:
     - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_Name
       value: Black Pawn (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5938220816633866819, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4735,6 +4795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Pawn (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4485704448486532, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.27125
@@ -4989,6 +5053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Bishop (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4661469790184408295, guid: 6f3013651623b446c91ae9d7270ba7b5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5082,6 +5150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Pawn (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4485704448486532, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.27125
@@ -5154,6 +5226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Pawn (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4485704448486532, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.27125
@@ -5225,6 +5301,10 @@ PrefabInstance:
     - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_Name
       value: White Pawn (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4485704448486532, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_LocalScale.x
@@ -5392,6 +5472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Pawn (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4485704448486532, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.27125
@@ -5494,7 +5578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1681604733}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Chess
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5629,6 +5713,10 @@ PrefabInstance:
     - target: {fileID: 1163459173247232, guid: 522692d40a26d42aeb798b874778b35c, type: 3}
       propertyPath: m_Name
       value: White Knight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163459173247232, guid: 522692d40a26d42aeb798b874778b35c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4605882136081276, guid: 522692d40a26d42aeb798b874778b35c, type: 3}
       propertyPath: m_LocalScale.x
@@ -6805,6 +6893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Pawn (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5938220816633866819, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.33
@@ -6904,6 +6996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Knight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 531482936053025999, guid: f4daf56a2ac5e44b889a2ead6ccc262a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6011716913164395725, guid: f4daf56a2ac5e44b889a2ead6ccc262a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.34
@@ -6991,6 +7087,10 @@ PrefabInstance:
     - target: {fileID: 1273725991896454, guid: 973983e22257f4007b9b0bb5ccae1184, type: 3}
       propertyPath: m_Name
       value: White King
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273725991896454, guid: 973983e22257f4007b9b0bb5ccae1184, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4041927016075158, guid: 973983e22257f4007b9b0bb5ccae1184, type: 3}
       propertyPath: m_LocalScale.x
@@ -7126,6 +7226,10 @@ PrefabInstance:
     - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_Name
       value: White Pawn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352649277301394, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4485704448486532, guid: 6653ddcbd4a2e453ba6e07f8931ce86c, type: 3}
       propertyPath: m_LocalScale.x
@@ -7271,6 +7375,10 @@ PrefabInstance:
     - target: {fileID: 1639620864090624, guid: ff7e7084bc927405da871cf1faa802ab, type: 3}
       propertyPath: m_Name
       value: White Queen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639620864090624, guid: ff7e7084bc927405da871cf1faa802ab, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4011343921335002, guid: ff7e7084bc927405da871cf1faa802ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -7524,6 +7632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Bishop
       objectReference: {fileID: 0}
+    - target: {fileID: 4661469790184408295, guid: 6f3013651623b446c91ae9d7270ba7b5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7670,15 +7782,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3121176350988571573, guid: 3c04bf755db61104faf3b3087d8b8870, type: 3}
       propertyPath: m_Size.y
-      value: 3.1955957
+      value: 3.4087203
       objectReference: {fileID: 0}
     - target: {fileID: 3121176350988571573, guid: 3c04bf755db61104faf3b3087d8b8870, type: 3}
       propertyPath: m_Center.y
-      value: -1.6172023
+      value: -1.51064
       objectReference: {fileID: 0}
     - target: {fileID: 5867091079594512669, guid: 3c04bf755db61104faf3b3087d8b8870, type: 3}
       propertyPath: m_Name
       value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867091079594512669, guid: 3c04bf755db61104faf3b3087d8b8870, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7736,6 +7852,10 @@ PrefabInstance:
     - target: {fileID: 8274271343021332198, guid: bcf19558551614c79a55a9e750ad43b1, type: 3}
       propertyPath: m_Name
       value: Black Rook
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274271343021332198, guid: bcf19558551614c79a55a9e750ad43b1, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7850,6 +7970,10 @@ PrefabInstance:
     - target: {fileID: 8831143663032735696, guid: e9b85e3c5806d4152b0b5cb3158d2120, type: 3}
       propertyPath: m_Name
       value: Black Queen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831143663032735696, guid: e9b85e3c5806d4152b0b5cb3158d2120, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8010,6 +8134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Knight
       objectReference: {fileID: 0}
+    - target: {fileID: 531482936053025999, guid: f4daf56a2ac5e44b889a2ead6ccc262a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6011716913164395725, guid: f4daf56a2ac5e44b889a2ead6ccc262a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.940001
@@ -8107,6 +8235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black King
       objectReference: {fileID: 0}
+    - target: {fileID: 8494849073600166246, guid: 8efc31579d9ab4990a3b6b97897f0183, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8123,6 +8255,10 @@ PrefabInstance:
     - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_Name
       value: Black Pawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 97726201351403366, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5938220816633866819, guid: 7302be28962c243678252e7c6255fdbc, type: 3}
       propertyPath: m_LocalPosition.x
